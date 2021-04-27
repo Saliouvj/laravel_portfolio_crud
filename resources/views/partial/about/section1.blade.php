@@ -40,11 +40,7 @@
                     </div>
                   </div>
               @endforeach
-              
-
-              
-          </div><!-- End .content-->
-
+          </div><!-- fin de content-->
           <div class="skills-content pl-lg-4">
             @foreach ($userList4 as $userList4s)
                 <div class="progress">
@@ -61,4 +57,5 @@
       </div>
 
     </div>
-  </section><!-- End About Me Section -->
+  </section>
+  <!-- Fin About Me Section -->

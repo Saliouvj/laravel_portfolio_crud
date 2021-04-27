@@ -56,4 +56,5 @@
       </div>
 
     </div>
-</section><!-- End My Resume Section -->
+</section>
+<!-- Fin My Resume Section -->

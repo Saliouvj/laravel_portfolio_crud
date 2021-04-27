@@ -8,6 +8,8 @@
           @endforeach
 
       </ul>
-    </nav><!-- .nav-menu -->
+    </nav>
 
-  </header><!-- End Header -->
+  </header>
+  
+  <!-- End Header -->

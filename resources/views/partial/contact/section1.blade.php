@@ -7,11 +7,8 @@
         <h2>{{$titres[5]->titre}}</h2>
         <p>{{$titres[5]->subtitre}}</p>
       </div>
-
       <div class="row">
-
         <div class="col-lg-6">
-
           <div class="row">
             <div class="col-md-12">
               <div class="info-box">
@@ -70,4 +67,5 @@
       </div>
 
     </div>
-  </section><!-- End Contact Me Section -->
+  </section>
+  <!-- Fin Contact Me Section -->

@@ -1,4 +1,4 @@
-<!-- ======= My Portfolio Section ======= -->
+<!-- ======= My Portfolio ======= -->
 <section id="portfolio" class="portfolio">
     <div class="container">
 
@@ -36,4 +36,5 @@
       </div>
 
     </div>
-  </section><!-- End My Portfolio Section -->
+  </section>
+  <!-- Fin My Portfolio  -->

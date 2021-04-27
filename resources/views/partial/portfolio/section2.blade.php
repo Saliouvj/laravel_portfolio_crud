@@ -27,8 +27,6 @@
           </div>
         </div>
         @endforeach
-
       </div>
-
     </div>
-  </section><!-- End Pricing Section -->
+  </section><!-- Fin Pricing Section -->
