@@ -1,4 +1,5 @@
 <!-- ======= Footer ======= -->
+
 <footer id="footer">
   <div class="container">
     <h3>{{$footers[0]->titre}}</h3>
@@ -21,5 +22,7 @@
       Designed by <a href="https://bootstrapmade.com/">{{$footers[0]->designed}}</a>
     </div>
   </div>
-</footer><!-- End Footer -->
+</footer>
+
+<!-- End Footer -->
 
