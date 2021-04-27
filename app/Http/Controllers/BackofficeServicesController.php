@@ -77,7 +77,6 @@ class BackofficeServicesController extends Controller
             'icon'=>'required',
         ]);
 
-
         $updateService1 = Service1::find($id);
         $updateService1->titre = $request->titre;
         $updateService1->text = $request->text;

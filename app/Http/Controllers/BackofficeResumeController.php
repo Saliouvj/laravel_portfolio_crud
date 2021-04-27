@@ -28,7 +28,6 @@ class BackofficeResumeController extends Controller
             'text'=>'required',
         ]);
 
-
         $storeResumeTitre = new ResumeTitre;
         $storeResumeTitre->titre = $request->titre;
         $storeResumeTitre->subtitre = $request->subtitre;
@@ -66,13 +65,6 @@ class BackofficeResumeController extends Controller
         $updateResumeTitre->save();
         return redirect()->back();
     }
-
-
-
-
-
-
-
 
     public function storeResumeTitre2(Request $request)
     {
@@ -115,13 +107,6 @@ class BackofficeResumeController extends Controller
     }
 
 
-
-
-
-
-
-
-
     public function storeResumeList1(Request $request)
     {
 
@@ -160,12 +145,6 @@ class BackofficeResumeController extends Controller
         $updateResumeList1->save();
         return redirect()->back();
     }
-
-
-
-
-
-
 
 
     public function storeResume2(Request $request)
@@ -218,12 +197,6 @@ class BackofficeResumeController extends Controller
         $updateResume2->save();
         return redirect()->back();
     }
-
-
-
-
-
-
 
     public function storeResume3(Request $request)
     {
@@ -287,6 +260,5 @@ class BackofficeResumeController extends Controller
         $updateResume3->save();
         return redirect()->back();
     }
-
 
 }

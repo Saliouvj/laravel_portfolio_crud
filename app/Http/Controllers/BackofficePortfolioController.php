@@ -17,8 +17,6 @@ class BackofficePortfolioController extends Controller
         return view('backoffice.pages.portfolio', compact('pricings','titrePortfolios','imagePortfolios'));
     }
 
-
-
     public function storePricings(Request $request)
     {
 
@@ -90,12 +88,6 @@ class BackofficePortfolioController extends Controller
         return redirect()->back();
     }
 
-
-
-
-
-
-
     public function storePortfolioImg(Request $request)
     {
         $validPortfolioImg=$request->validate([
@@ -143,8 +135,6 @@ class BackofficePortfolioController extends Controller
             'ref'=>'required'
         ]);
 
-
-
         $updatePortfolioImg = ImagePortfolio::find($id);
         $updatePortfolioImg->filter = $request->filter;
         $updatePortfolioImg->imgsrc = $request->imgsrc;
@@ -160,9 +150,6 @@ class BackofficePortfolioController extends Controller
         $down = ImagePortfolio::find($id);
         return Storage::download('public/img/'.$down->imgsrc);
     }
-
-
-
 
     public function storePortfolioTitre(Request $request)
     {
@@ -201,6 +188,5 @@ class BackofficePortfolioController extends Controller
         $updatePortfolioTitre->save();
         return redirect()->back();
     }
-
 
 }

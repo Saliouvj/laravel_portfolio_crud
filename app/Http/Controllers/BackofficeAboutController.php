@@ -194,5 +194,3 @@ class BackofficeAboutController extends Controller
         return redirect()->back();
     }
 }
-
-
